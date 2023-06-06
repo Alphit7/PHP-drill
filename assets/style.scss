@@ -1,0 +1,55 @@
+//Coolors
+$chocolateCosmos :#650D1B;
+$brown : #823200;
+$brownOrange : #9B3D12;
+$darkGoldenrod : #AE8E1C;
+$pear : #C1DF1F;
+//typos
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap');
+//font-family: 'Kanit', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+//font-family: 'Mulish', sans-serif;
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #650D1B;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #AE8E1C;
+}
+
+h1{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    color: #C1DF1F;
+    background-color: #823200;
+    padding: 20px 60px;
+    border-radius: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    // margin: auto;
+}
+
+label{
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+#excuse{
+    background-color:#AE8E1C;
+    padding: 20px 10px;
+    color: #650D1B;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-weight: 200;
+}
