@@ -97,6 +97,19 @@
     //10.
     echo strtolower("STOP YELLING I CAN'T HEAR MYSELF THINKING!!");
 
+    //11.
+    
+    function calculateConeVolume($ray, $height)
+    {
+
+        $volume = $ray * $ray * 3.14 * $height * (1 / 3);
+
+        echo "The volume of a cone which ray is $ray and height is $height = $volume";
+
+    }
+
+    calculateConeVolume(4, 19);
+
     ?>
     <h1>Generate a new word</h1>
     <p>
